@@ -42,13 +42,13 @@
 	</div>
 </section>
 
-<section class="bg-gray-50 px-4 py-16">
+<section class="bg-gray-50 px-110 py-16">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
-			Naše kvalitetne usluge / vrijednosti
+			Naše kvalitetne usluge i vrijednosti
 		</h2>
-
-		<div class="grid gap-8 md:grid-cols-3">
+		<!-- TODO: napraviti sve kartice kako treba -->
+		<div class="grid gap-8 md:grid-cols-3 md:grid-rows-2">
 			<div class="rounded bg-white p-6 text-center shadow">
 				<div class="mb-4">
 					<div class="ico mx-auto h-16 w-16 bg-gray-200"></div>
@@ -65,6 +65,39 @@
 					<div class="ico mx-auto h-16 w-16 bg-gray-200"></div>
 				</div>
 				<h3 class="mb-2 text-xl font-semibold">Vrhunska kvaliteta</h3>
+				<p class="text-gray-700">
+					Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači
+					jamče preciznu izradu i dugotrajnu eleganciju svakog komada.
+				</p>
+			</div>
+
+			<div class="rounded bg-white p-6 text-center shadow">
+				<div class="mb-4">
+					<div class="ico mx-auto h-16 w-16 bg-gray-200"></div>
+				</div>
+				<h3 class="mb-2 text-xl font-semibold">Brza i stručna usluga</h3>
+				<p class="text-gray-700">
+					Uz profesionalno savjetovanje i brzu izvedbu, naš salon osigurava da ćete uvijek izgledati
+					besprijekorno i osjećati se samouvjereno.
+				</p>
+			</div>
+
+			<div class="rounded bg-white p-6 text-center shadow">
+				<div class="mb-4">
+					<div class="ico mx-auto h-16 w-16 bg-gray-200"></div>
+				</div>
+				<h3 class="mb-2 text-xl font-semibold">Krojenje po mjeri</h3>
+				<p class="text-gray-700">
+					Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće
+					koji savršeno odražavaju vaš osobni stil i tjelesne proporcije.
+				</p>
+			</div>
+
+			<div class="rounded bg-white p-6 text-center shadow">
+				<div class="mb-4">
+					<div class="ico mx-auto h-16 w-16 bg-gray-200"></div>
+				</div>
+				<h3 class="mb-2 text-xl font-semibold">Preinake i popravci</h3>
 				<p class="text-gray-700">
 					Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači
 					jamče preciznu izradu i dugotrajnu eleganciju svakog komada.
