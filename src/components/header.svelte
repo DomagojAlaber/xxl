@@ -1,5 +1,9 @@
 <script>
-	// Svelte code if needed
+	let menuOpen = false;
+
+	function toggleHamburger() {
+		menuOpen = !menuOpen
+	}
 </script>
 
 <style>
@@ -20,8 +24,8 @@
 		width: 100%;
 	}
 </style>
-
-<nav class="flex items-center justify-between bg-gray-100 px-120 py-7">
+<!-- 
+<nav class="flex items-center justify-between bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-110 py-5 ">
 	<a href="/" class="text-2xl font-extrabold">XXL KROJACKI OBRT</a>
 
 	<div class="space-x-4">
@@ -32,4 +36,60 @@
 			Kontakt
 		</a>
 	</div>
+
+	<button 
+		class="md:hidden focus:outline-none" 
+		on:click={() => menuOpen = !menuOpen} 
+		aria-label="Toggle menu">
+		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M4 6h16M4 12h16M4 18h16"></path>
+		</svg>
+	</button>
+
+</nav> -->
+
+
+<nav class="flex items-center justify-between md:px-5 sm:px-4 py-2">
+	<a href="/" class="hidden md:block text-2xl font-extrabold">XXL KROJACKI OBRT</a>
+	<a href="/" class="block md:hidden text-2xl font-extrabold">XXL</a>
+
+	<div class="hidden md:flex items-center space-x-4">
+		<a href="/" class="underline-animation hover:text-[#E53935]">Pocetna</a>
+		<a href="/gas" class="underline-animation hover:text-[#E53935]">O nama</a>
+		<a href="/gas" class="underline-animation hover:text-[#E53935]">Cjenik</a>
+		<a href="/contact" class="rounded bg-[#E53935] px-4 py-2 text-white">
+			Kontakt
+		</a>
+	</div>
+
+	<button 
+		class="md:hidden focus:outline-none" 
+		on:click={toggleHamburger} 
+		aria-label="Toggle menu">
+		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				d="M4 6h16M4 12h16M4 18h16"></path>
+		</svg>
+	</button>
+
 </nav>
+
+{#if menuOpen}
+	<div class="md:hidden bg-gray-100 px-4 py-2 space-y-2">
+		<a href="/" class="block underline-animation hover:text-[#E53935] text-sm text-center">
+			Pocetna
+		</a>
+		<a href="/gas" class="block underline-animation hover:text-[#E53935] text-sm text-center">
+			O nama
+		</a>
+		<a href="/gas" class="block underline-animation hover:text-[#E53935] text-sm text-center">
+			Cjenik
+		</a>
+		<a href="/contact" class="block rounded bg-[#E53935] px-4 py-2 text-xs text-center text-white hover:bg-black">
+			Kontakt
+		</a>
+	</div>
+{/if}

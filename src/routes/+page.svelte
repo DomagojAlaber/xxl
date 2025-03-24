@@ -23,7 +23,7 @@
 	});
 </script>
 
-<section class="relative bg-cover bg-center px-120 py-70" style="background-image: url({home});">
+<section class="relative bg-cover bg-center px-110 py-70" style="background-image: url({home});">
 	<div class="absolute inset-0 bg-black opacity-50"></div>
 	<div class="relative mx-auto flex max-w-6xl flex-col items-center justify-center md:flex-row">
 		<div class="mb-8 text-white md:mr-8 md:mb-0 md:w-1/2">
