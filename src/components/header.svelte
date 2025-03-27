@@ -24,34 +24,8 @@
 		width: 100%;
 	}
 </style>
-<!-- 
-<nav class="flex items-center justify-between bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-110 py-5 ">
-	<a href="/" class="text-2xl font-extrabold">XXL KROJACKI OBRT</a>
 
-	<div class="space-x-4">
-		<a href="/" class="underline-animation hover:text-[#E53935]">Pocetna</a>
-		<a href="/gas" class="underline-animation hover:text-[#E53935]">O nama</a>
-		<a href="/gas" class="underline-animation hover:text-[#E53935]">Cjenik</a>
-		<a href="/contact" class="rounded bg-[#E53935] px-4 py-2 text-white">
-			Kontakt
-		</a>
-	</div>
-
-	<button 
-		class="md:hidden focus:outline-none" 
-		on:click={() => menuOpen = !menuOpen} 
-		aria-label="Toggle menu">
-		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-			xmlns="http://www.w3.org/2000/svg">
-			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-				d="M4 6h16M4 12h16M4 18h16"></path>
-		</svg>
-	</button>
-
-</nav> -->
-
-
-<nav class="flex items-center justify-between md:px-5 sm:px-4 py-2">
+<nav class="flex items-center justify-between px-2 sm:px-4 md:px-20 lg:px-110  py-2">
 	<a href="/" class="hidden md:block text-2xl font-extrabold">XXL KROJACKI OBRT</a>
 	<a href="/" class="block md:hidden text-2xl font-extrabold">XXL</a>
 

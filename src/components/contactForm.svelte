@@ -15,7 +15,7 @@
 	}
 </script>
 
-<section class="bg-white px-4 py-16">
+<section class="bg-white px-2 sm:px-4 md:px-20 lg:px-110 py-16">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-8 text-2xl font-bold md:text-3xl">KONTAKTIRAJTE NAS</h2>
 
