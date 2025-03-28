@@ -55,7 +55,7 @@
 	</div>
 </section>
 
-<section>
+<section class="bg-gray-50">
 	<div id="trustmary-container" class="my-8 px-2 sm:px-4 lg:px-100"></div>
 </section>
 
