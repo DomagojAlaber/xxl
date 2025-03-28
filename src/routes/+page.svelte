@@ -11,11 +11,9 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		// Create the script element for the Trustmary widget
 		const script = document.createElement('script');
 		script.src = 'https://widget.trustmary.com/fiObpUIut';
 		script.async = true;
-		// Append it to the container with the specified id
 		const container = document.getElementById('trustmary-container');
 		if (container) {
 			container.appendChild(script);
@@ -52,9 +50,8 @@
 			</div>
 			<div class="text-[#424242]">Javite se</div>
 		</div>
-		<div class="md:w-1/2">
-			<!-- svelte-ignore a11y_img_redundant_alt -->
-			<img src={craft} alt="Craft picture" class="h-150 w-full" />
+		<div class="md:w-1/2 px-">
+			<img src={craft} alt="craft_picture" class="h-150 w-full" />
 		</div>
 	</div>
 </section>
@@ -68,7 +65,6 @@
 		<div class="grid gap-8 grid-cols-1 md:grid-cols-3 md:grid-rows-2">
 			<div class="rounded bg-white p-6 text-center shadow">
 				<div class="mb-4 h-50 overflow-hidden">
-					<!-- <div class="ico mx-auto h-16 w-16 bg-gray-200"></div> -->
 					<img src={card1} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
 				</div>
 				<h3 class="mb-2 text-xl font-semibold">Personalizirani dizajn</h3>
@@ -137,7 +133,9 @@
 	</div>
 </section>
 
-<section class="px-2 sm:px-4 md:px-20 lg:px-110"></section>
-<div id="trustmary-container" class="my-8"></div>
+<section class="px-2 sm:px-4 md:px-20 lg:px-110">
+	<div id="trustmary-container" class="my-8"></div>
+</section>
+
 
 <ContactForm />

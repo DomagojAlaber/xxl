@@ -31,8 +31,8 @@
 
 	<div class="hidden md:flex items-center space-x-4">
 		<a href="/" class="underline-animation hover:text-[#E53935]">Pocetna</a>
-		<a href="/gas" class="underline-animation hover:text-[#E53935]">O nama</a>
-		<a href="/gas" class="underline-animation hover:text-[#E53935]">Cjenik</a>
+		<a href="/" class="underline-animation hover:text-[#E53935]">O nama</a>
+		<a href="/" class="underline-animation hover:text-[#E53935]">Cjenik</a>
 		<a href="/contact" class="rounded bg-[#E53935] px-4 py-2 text-white">
 			Kontakt
 		</a>
@@ -56,10 +56,10 @@
 		<a href="/" class="block underline-animation hover:text-[#E53935] text-sm text-center">
 			Pocetna
 		</a>
-		<a href="/gas" class="block underline-animation hover:text-[#E53935] text-sm text-center">
+		<a href="/" class="block underline-animation hover:text-[#E53935] text-sm text-center">
 			O nama
 		</a>
-		<a href="/gas" class="block underline-animation hover:text-[#E53935] text-sm text-center">
+		<a href="/" class="block underline-animation hover:text-[#E53935] text-sm text-center">
 			Cjenik
 		</a>
 		<a href="/contact" class="block rounded bg-[#E53935] px-4 py-2 text-xs text-center text-white hover:bg-black">
