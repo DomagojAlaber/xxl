@@ -41,9 +41,12 @@
 				<div class="text-xl">08:00 - 13:00</div>
 			</div>
 		</div>
-		<form on:submit|preventDefault={handleSubmit} class="space-y-6">
+		<!-- <form on:submit|preventDefault={handleSubmit} class="space-y-6"> -->
+		<form id="contactform" action="https://formsubmit.io/send/testic.nikola@gmail.com" method="POST">
+			<input name="_redirect" type="hidden" id="name" value="/">
 			<div class="flex flex-col space-y-4 pt-2 md:flex-row md:space-y-0 md:space-x-4">
 				<input
+					name="name"
 					type="text"
 					bind:value={name}
 					placeholder="Ime"
@@ -59,6 +62,7 @@
 				/>
 			</div>
 			<input
+				name="email"
 				type="email"
 				bind:value={email}
 				placeholder="E-mail"
@@ -66,11 +70,13 @@
 				class="w-full border-b border-gray-300 py-2 transition-colors duration-300 focus:border-[#D21F1B] focus:outline-none"
 			/>
 			<textarea
+				name="comment"
 				bind:value={message}
 				placeholder="Tekst"
 				rows="5"
 				class="w-full resize-none border-b border-gray-300 py-2 transition-colors duration-300 focus:border-[#D21F1B] focus:outline-none"
 			></textarea>
+			<input name="_formsubmit_id" type="text" style="display:none">
 			<button
 				type="submit"
 				class="mt-4 block w-full rounded bg-[#D21F1B] px-4 py-2 text-white transition-colors duration-300 hover:bg-black"

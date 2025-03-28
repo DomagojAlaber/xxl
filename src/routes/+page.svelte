@@ -62,14 +62,14 @@
 <section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center md:w-1/2">
-			<div class="py-2 text-[#D21F1B]">Vase krojacko rjesenje</div>
-			<div class="py-2 font-bold">Expert craftsmanship at its finest</div>
+			<div class="py-2 font-bold text-[#D21F1B]">Vase krojacko rjesenje</div>
+			<div class="py-2 font-bold">Vrhunsko majstorstvo u svom najboljem izdanju</div>
 			<div class="py-2 text-[#424242]">
-				At xxl krojacki obrt, we take pride in delivering exceptional tailoring services in Pula.
-				Our skilled tailors blend traditional techniques with modern styles to create custom
-				garments that fit perfectly. Whether you need alterations or a bespoke outfit, we focus on
-				quality and precision in every stitch. Trust us to enhance your wardrobe with tailored
-				solutions that reflect your individuality and style.
+				U XXL krojačkom obrtu ponosimo se pružanjem izvanrednih usluga krojenja u Puli. Naše vješte
+				krojačice kombiniraju tradicionalne tehnike s modernim stilovima kako bi stvorili odjeću po
+				mjeri koja savršeno pristaje. Bilo da vam trebaju prepravke ili odjevni predmet po mjeri,
+				usredotočeni smo na kvalitetu i preciznost u svakom šavu. Vjerujte nam da ćemo unaprijediti
+				vaš ormar prilagođenim rješenjima koja odražavaju vašu individualnost i stil.
 			</div>
 			<a href="/contact" class="text-[#424242] underline hover:font-bold">Javite se</a>
 		</div>
@@ -85,14 +85,12 @@
 			Naše kvalitetne usluge i vrijednosti
 		</h2>
 		<!-- Container that is horizontally scrollable on small screens -->
-		<div class="flex gap-8 overflow-x-auto md:overflow-x-visible md:grid md:grid-cols-3 md:grid-rows-2">
+		<div
+			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-3 md:grid-rows-2 md:overflow-x-visible"
+		>
 			{#each cards as card}
 				<!-- Wrap each card in a container that prevents shrinking on small screens -->
-					<QualityCard
-						image={imageMap[card.image]}
-						title={card.title}
-						text={card.text}
-					/>
+				<QualityCard image={imageMap[card.image]} title={card.title} text={card.text} />
 			{/each}
 		</div>
 	</div>

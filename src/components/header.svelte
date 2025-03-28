@@ -31,8 +31,7 @@
 
 	<div class="hidden md:flex items-center space-x-4">
 		<a href="/" class="underline-animation hover:text-[#D21F1B]">Pocetna</a>
-		<a href="/" class="underline-animation hover:text-[#D21F1B]">O nama</a>
-		<a href="/" class="underline-animation hover:text-[#D21F1B]">Cjenik</a>
+		<a href="/catalog" class="underline-animation hover:text-[#D21F1B]">Cjenik</a>
 		<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2 text-white">
 			Kontakt
 		</a>
