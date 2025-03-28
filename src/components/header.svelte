@@ -25,7 +25,7 @@
 	}
 </style>
 
-<nav class="flex items-center justify-between px-2 sm:px-4 md:px-20 lg:px-110  py-2">
+<nav class="sticky top-0 z-50 bg-white flex items-center justify-between px-2 sm:px-4 md:px-20 lg:px-110 py-2">
 	<a href="/" class="hidden md:block text-2xl font-extrabold">XXL KROJACKI OBRT</a>
 	<a href="/" class="block md:hidden text-2xl font-extrabold">XXL</a>
 

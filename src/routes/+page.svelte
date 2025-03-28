@@ -1,14 +1,30 @@
-<script>
+<script lang="ts">
+	import ContactForm from '../components/contactForm.svelte';
+	import QualityCard from '../components/qualityCard.svelte';
+	import cardsData from '$lib/data/cards.json';
+
 	import home from '$lib/images/home.jpeg';
 	import craft from '$lib/images/craft.jpg';
-	import ContactForm from '../components/contactForm.svelte';
 	import card1 from '$lib/images/cards/card1.jpg';
 	import card2 from '$lib/images/cards/card2.jpg';
 	import card3 from '$lib/images/cards/card3.jpeg';
 	import card4 from '$lib/images/cards/card4.jpeg';
 	import card5 from '$lib/images/cards/card5.jpeg';
 	import card6 from '$lib/images/cards/card6.jpeg';
+
 	import { onMount } from 'svelte';
+	import type { CardData } from '$lib/types';
+
+	const cards = cardsData as CardData[];
+
+	const imageMap: Record<CardData['image'], string> = {
+		'card1.jpg': card1,
+		'card2.jpg': card2,
+		'card3.jpg': card3,
+		'card4.jpg': card4,
+		'card5.jpg': card5,
+		'card6.jpg': card6
+	};
 
 	onMount(() => {
 		const script = document.createElement('script');
@@ -22,7 +38,7 @@
 </script>
 
 <section
-	class="relative bg-cover bg-center px-4 sm:px-6 md:px-20 py-16 sm:py-20 md:py-40 lg:py-50 sm:h-80 md:h-96 lg:h-[650px]"
+	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
 	style="background-image: url({home});"
 >
 	<div class="absolute inset-0 bg-black opacity-50"></div>
@@ -68,74 +84,16 @@
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
 			Naše kvalitetne usluge i vrijednosti
 		</h2>
-		<!-- TODO: napraviti sve kartice kako treba -->
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:grid-rows-2">
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card1} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Personalizirani dizajn</h3>
-				<p class="text-gray-700">
-					Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće
-					koji savršeno odražavaju vaš osobni stil i tjelesne proporcije.
-				</p>
-			</div>
-
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card2} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Vrhunska kvaliteta</h3>
-				<p class="text-gray-700">
-					Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači
-					jamče preciznu izradu i dugotrajnu eleganciju svakog komada.
-				</p>
-			</div>
-
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card3} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Brza i stručna usluga</h3>
-				<p class="text-gray-700">
-					Uz profesionalno savjetovanje i brzu izvedbu, naš salon osigurava da ćete uvijek izgledati
-					besprijekorno i osjećati se samouvjereno.
-				</p>
-			</div>
-
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card4} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Krojenje po mjeri</h3>
-				<p class="text-gray-700">
-					Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće
-					koji savršeno odražavaju vaš osobni stil i tjelesne proporcije.
-				</p>
-			</div>
-
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card5} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Preinake i popravci</h3>
-				<p class="text-gray-700">
-					Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači
-					jamče preciznu izradu i dugotrajnu eleganciju svakog komada.
-				</p>
-			</div>
-
-			<div class="rounded bg-white p-6 text-center shadow">
-				<div class="mb-4 h-50 overflow-hidden">
-					<img src={card6} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
-				</div>
-				<h3 class="mb-2 text-xl font-semibold">Efikasnost i pouzdanost</h3>
-				<p class="text-gray-700">
-					Uz tim iskusnih stručnjaka, vaša narudžba se obrađuje brzo i precizno, osiguravajući da
-					svaki detalj bude savršen. Naša predanost kvaliteti i brzini čini nas prvim izborom za
-					vaše krojačke potrebe.
-				</p>
-			</div>
+		<!-- Container that is horizontally scrollable on small screens -->
+		<div class="flex gap-8 overflow-x-auto md:overflow-x-visible md:grid md:grid-cols-3 md:grid-rows-2">
+			{#each cards as card}
+				<!-- Wrap each card in a container that prevents shrinking on small screens -->
+					<QualityCard
+						image={imageMap[card.image]}
+						title={card.title}
+						text={card.text}
+					/>
+			{/each}
 		</div>
 	</div>
 </section>
