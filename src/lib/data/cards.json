@@ -1,33 +1,32 @@
 [
-    {
-      "image": "card1.jpg",
-      "title": "Personalizirani dizajn",
-      "text": "Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće koji savršeno odražavaju vaš osobni stil i tjelesne proporcije."
-    },
-    {
-      "image": "card2.jpg",
-      "title": "Vrhunska kvaliteta",
-      "text": "Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači jamče preciznu izradu i dugotrajnu eleganciju svakog komada."
-    },
-    {
-      "image": "card3.jpg",
-      "title": "Brza i stručna usluga",
-      "text": "Uz profesionalno savjetovanje i brzu izvedbu, naš salon osigurava da ćete uvijek izgledati besprijekorno i osjećati se samouvjereno."
-    },
-    {
-      "image": "card4.jpg",
-      "title": "Krojenje po mjeri",
-      "text": "Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće koji savršeno odražavaju vaš osobni stil i tjelesne proporcije."
-    },
-    {
-      "image": "card5.jpg",
-      "title": "Preinake i popravci",
-      "text": "Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači jamče preciznu izradu i dugotrajnu eleganciju svakog komada."
-    },
-    {
-      "image": "card6.jpg",
-      "title": "Efikasnost i pouzdanost",
-      "text": "Uz tim iskusnih stručnjaka, vaša narudžba se obrađuje brzo i precizno, osiguravajući da svaki detalj bude savršen. Naša predanost kvaliteti i brzini čini nas prvim izborom za vaše krojačke potrebe."
-    }
-  ]
-  
+	{
+		"image": "card1.jpg",
+		"title": "Personalizirani dizajn",
+		"text": "Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće koji savršeno odražavaju vaš osobni stil i tjelesne proporcije."
+	},
+	{
+		"image": "card2.jpg",
+		"title": "Vrhunska kvaliteta",
+		"text": "Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači jamče preciznu izradu i dugotrajnu eleganciju svakog komada."
+	},
+	{
+		"image": "card3.jpg",
+		"title": "Brza i stručna usluga",
+		"text": "Uz profesionalno savjetovanje i brzu izvedbu, naš salon osigurava da ćete uvijek izgledati besprijekorno i osjećati se samouvjereno."
+	},
+	{
+		"image": "card4.jpg",
+		"title": "Krojenje po mjeri",
+		"text": "Naš krojački salon nudi potpuno prilagođene usluge, stvarajući jedinstvene komade odjeće koji savršeno odražavaju vaš osobni stil i tjelesne proporcije."
+	},
+	{
+		"image": "card5.jpg",
+		"title": "Preinake i popravci",
+		"text": "Koristeći samo najkvalitetnije materijale i modernu tehnologiju, naši iskusni krojači jamče preciznu izradu i dugotrajnu eleganciju svakog komada."
+	},
+	{
+		"image": "card6.jpg",
+		"title": "Efikasnost i pouzdanost",
+		"text": "Uz tim iskusnih stručnjaka, vaša narudžba se obrađuje brzo i precizno, osiguravajući da svaki detalj bude savršen. Naša predanost kvaliteti i brzini čini nas prvim izborom za vaše krojačke potrebe."
+	}
+]

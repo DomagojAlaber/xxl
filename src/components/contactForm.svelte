@@ -17,9 +17,27 @@
 
 <section class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-[110px]">
 	<div class="mx-auto max-w-6xl">
-	  <h2 class="mb-8 text-center text-2xl font-bold md:text-3xl">KONTAKTIRAJTE NAS</h2>
+	  <h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">KONTAKTIRAJTE NAS</h2>
+	  <div class="md:flex md:justify-evenly md:pt-5 md:pb-5">
+		<div class="text-center md:text-left">
+			<h2 class="py-2 text-xl font-bold text-gray-700">Adresa</h2>
+			<div class="text-xl">52100 Pula, Teslina ulica 18</div>
+			<h2 class="py-2 text-xl font-bold text-gray-700">Telefon</h2>
+			<div class="underline text-xl">+385 98 201 1971</div>
+		</div>
+		<div class="text-center md:text-left">
+			<h2 class="py-2 text-2xl font-bold text-gray-700">Radno vrijeme</h2>
+
+			<div>Pon - Sri - Pet</div>
+			<div class="text-xl">12:00 - 19:00</div>
+			<div>Uto - Cet</div>
+			<div class="text-xl">08:00 - 15:00</div>
+			<div>Subota</div>
+			<div class="text-xl">08:00 - 13:00</div>
+		</div>
+	  </div>
 	  <form on:submit|preventDefault={handleSubmit} class="space-y-6">
-		<div class="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
+		<div class="pt-2 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
 		  <input 
 			type="text" 
 			bind:value={name} 

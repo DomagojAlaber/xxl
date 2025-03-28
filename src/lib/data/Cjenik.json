@@ -1,0 +1,317 @@
+[
+	{
+		"group": "Krojačka usluga",
+		"name": " Skraćivanje hlača A (rub na mašinu)",
+		"price": 6.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": " Skraćivanje hlača B (original rub)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje hlača C (hlače - odijelo)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje suknje A (rub na mašinu)",
+		"price": 6.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje suknje B (skriveni rub)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje suknje C (-s podstavom)",
+		"price": 10.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje suknje A (bez podstave)",
+		"price": 35.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje suknje B (klasična suknja)",
+		"price": 45.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje suknje C (falde)",
+		"price": 50.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje hlača A (lastik)",
+		"price": 40.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje hlača B (s pojasom)",
+		"price": 50.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje hlača C (klasične hlače)",
+		"price": 55.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje košulja A (kratki rukav)",
+		"price": 45.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje košulja B (dugi rukav)",
+		"price": 55.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje košulja C (muška košulja)",
+		"price": 60.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje sakoa A (bez podstave)",
+		"price": 70.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje sakoa B (kratki rukav)",
+		"price": 60.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje sakoa C (klasičan sako)",
+		"price": 80.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje sakoa D (-narudžba)",
+		"price": 90.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje kaputa A (klasičan kaput)",
+		"price": 160.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje kaputa B (-narudžba)",
+		"price": 170.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljina A (ljetna haljina)",
+		"price": 50.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljina B (klasična)",
+		"price": 60.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljina C (s podstavom)",
+		"price": 75.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljina D (svečana haljina)",
+		"price": 140.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljina E (narudžba)",
+		"price": 220.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Krpanje A (klasično)",
+		"price": 6.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Krpanje B (s podlistkom)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Krpanje C (centilin + podlistak)",
+		"price": 10.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Sužavanje (hlače-suknje) A (donji dio)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Sužavanje (hlače-suknje) B (bokovi)",
+		"price": 10.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Sužavanje (hlače-suknje) C (bez pojasa)",
+		"price": 13.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Sužavanje (hlače-suknje) D (s pojasom)",
+		"price": 12.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje plahte",
+		"price": 5.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje plahte - lastik",
+		"price": 7.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastučnice",
+		"price": 4.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuk navlake A (preklop)",
+		"price": 5.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuk navlake B (patent)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuk navlake C (ukrasni štep)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - alke A (laka zavjesa)",
+		"price": 18.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - alke B (dekor zavjesa)",
+		"price": 22.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - alke C (black out)",
+		"price": 25.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa traka A (po metru)",
+		"price": 6.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa traka B (dekor - metar)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa traka C (black out - metar)",
+		"price": 12.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - black out A (visina 150)",
+		"price": 17.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - black out B (visina 250)",
+		"price": 22.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje zavjesa - black out C (iznad 250)",
+		"price": 25.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje panela zavjesa",
+		"price": 12.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje pacetto zavjesa",
+		"price": 25.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljinica za stolice A (sa sjedalom)",
+		"price": 18.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljinica za stolice B (do pola noge)",
+		"price": 20.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje haljinica za stolice C (do poda)",
+		"price": 25.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Promjena patenta hlača - suknja A (donešeni patent)",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Promjena patenta hlača - suknja B (XXL-ov patent)",
+		"price": 10.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Promjena patenta jakna A (bez podstave)",
+		"price": 18.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Promjena patenta jakna B (trenerka)",
+		"price": 16.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Promjena patenta jakna C (zimske jakne)",
+		"price": 22.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuka A (obični 40x40)",
+		"price": 6.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuka B (obični s patentom)",
+		"price": 9.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuka C (patent + štep)",
+		"price": 13.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Šivanje jastuka D (narudžba)",
+		"price": 16.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Po dogovoru",
+		"price": ""
+	}
+]
