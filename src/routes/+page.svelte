@@ -21,7 +21,10 @@
 	});
 </script>
 
-<section class="relative bg-cover bg-center px-2 sm:px-4 md:px-20 lg:px-110 py-70" style="background-image: url({home});">
+<section
+	class="relative bg-cover bg-center px-4 sm:px-6 md:px-20 py-16 sm:py-20 md:py-40 lg:py-50 sm:h-80 md:h-96 lg:h-[650px]"
+	style="background-image: url({home});"
+>
 	<div class="absolute inset-0 bg-black opacity-50"></div>
 	<div class="relative mx-auto flex max-w-6xl flex-col items-center justify-center md:flex-row">
 		<div class="mb-8 text-white md:mr-8 md:mb-0 md:w-1/2">
@@ -36,7 +39,11 @@
 	</div>
 </section>
 
-<section class="relative bg-cover bg-center px-2 sm:px-4 md:px-20 lg:px-110 py-20">
+<section>
+	<div id="trustmary-container" class="my-8 px-2 sm:px-4 lg:px-100"></div>
+</section>
+
+<section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center md:w-1/2">
 			<div class="py-2 text-[#E53935]">Vase krojacko rjesenje</div>
@@ -48,21 +55,21 @@
 				quality and precision in every stitch. Trust us to enhance your wardrobe with tailored
 				solutions that reflect your individuality and style.
 			</div>
-			<div class="text-[#424242]">Javite se</div>
+			<a href="/contact" class="text-[#424242] underline hover:font-bold">Javite se</a>
 		</div>
-		<div class="md:w-1/2 px-">
-			<img src={craft} alt="craft_picture" class="h-150 w-full" />
+		<div class="px-2 md:w-1/2">
+			<img src={craft} alt="craft_picture" class="h-70 w-dvh sm:h-80 md:h-95 lg:h-140" />
 		</div>
 	</div>
 </section>
 
-<section class="bg-gray-50 px-2 sm:px-4 md:px-20 lg:px-110 py-16">
+<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-110">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
 			Naše kvalitetne usluge i vrijednosti
 		</h2>
 		<!-- TODO: napraviti sve kartice kako treba -->
-		<div class="grid gap-8 grid-cols-1 md:grid-cols-3 md:grid-rows-2">
+		<div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:grid-rows-2">
 			<div class="rounded bg-white p-6 text-center shadow">
 				<div class="mb-4 h-50 overflow-hidden">
 					<img src={card1} alt="persolanizirani dizajn" class="h-full w-full object-cover" />
@@ -132,10 +139,5 @@
 		</div>
 	</div>
 </section>
-
-<section class="px-2 sm:px-4 md:px-20 lg:px-110">
-	<div id="trustmary-container" class="my-8"></div>
-</section>
-
 
 <ContactForm />
