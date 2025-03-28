@@ -50,7 +50,7 @@
 			<p class="mb-6">
 				Kvalitetnim šivanjem i pažnjom na detalje, stavljamo pečat ručnog rada na svaki šav.
 			</p>
-			<button class="rounded bg-[#E53935] px-4 py-2 hover:bg-black"> Kontaktirajte nas </button>
+			<button class="rounded bg-[#D21F1B] px-4 py-2 hover:bg-black"> Kontaktirajte nas </button>
 		</div>
 	</div>
 </section>
@@ -62,7 +62,7 @@
 <section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center md:w-1/2">
-			<div class="py-2 text-[#E53935]">Vase krojacko rjesenje</div>
+			<div class="py-2 text-[#D21F1B]">Vase krojacko rjesenje</div>
 			<div class="py-2 font-bold">Expert craftsmanship at its finest</div>
 			<div class="py-2 text-[#424242]">
 				At xxl krojacki obrt, we take pride in delivering exceptional tailoring services in Pula.

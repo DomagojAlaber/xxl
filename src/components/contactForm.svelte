@@ -41,7 +41,7 @@
 			<textarea bind:value={message} placeholder="Tekst" rows="5" class="w- border p-2 md:w-full">
 			</textarea>
 
-			<button type="submit" class="rounded bg-[#E53935] px-4 py-2 text-white hover:bg-black">
+			<button type="submit" class="rounded bg-[#D21F1B] px-4 py-2 text-white hover:bg-black">
 				SEND
 			</button>
 		</form>
