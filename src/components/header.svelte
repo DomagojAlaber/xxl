@@ -55,10 +55,7 @@
 		<a href="/" class="block underline-animation hover:text-[#D21F1B] text-sm text-center">
 			Pocetna
 		</a>
-		<a href="/" class="block underline-animation hover:text-[#D21F1B] text-sm text-center">
-			O nama
-		</a>
-		<a href="/" class="block underline-animation hover:text-[#D21F1B] text-sm text-center">
+		<a href="/catalog" class="block underline-animation hover:text-[#D21F1B] text-sm text-center">
 			Cjenik
 		</a>
 		<a href="/contact" class="block rounded bg-[#D21F1B] px-4 py-2 text-xs text-center text-white hover:bg-black">
