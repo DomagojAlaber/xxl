@@ -15,7 +15,7 @@
 	}
 </script>
 
-<section class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-[110px]">
+<section class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-110">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">KONTAKTIRAJTE NAS</h2>
 		<div class="md:flex md:justify-evenly md:pt-5 md:pb-5">
@@ -41,7 +41,6 @@
 				<div class="text-xl">08:00 - 13:00</div>
 			</div>
 		</div>
-		<!-- <form on:submit|preventDefault={handleSubmit} class="space-y-6"> -->
 		<form id="contactform" action="https://formsubmit.io/send/testic.nikola@gmail.com" method="POST">
 			<input name="_redirect" type="hidden" id="name" value="/">
 			<div class="flex flex-col space-y-4 pt-2 md:flex-row md:space-y-0 md:space-x-4">

@@ -38,7 +38,7 @@
 </script>
 
 <section
-	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
+	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50 "
 	style="background-image: url({home});"
 >
 	<div class="absolute inset-0 bg-black opacity-50"></div>
@@ -50,7 +50,9 @@
 			<p class="mb-6">
 				Kvalitetnim šivanjem i pažnjom na detalje, stavljamo pečat ručnog rada na svaki šav.
 			</p>
-			<button class="rounded bg-[#D21F1B] px-4 py-2 hover:bg-black"> Kontaktirajte nas </button>
+			<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2.5 text-white hover:bg-black">
+				Kontaktirajte nas
+			</a>
 		</div>
 	</div>
 </section>
@@ -61,7 +63,7 @@
 
 <section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
-		<div class="flex flex-col items-start justify-center md:w-1/2">
+		<div class="flex flex-col items-start justify-center md:w-1/2 px-2">
 			<div class="py-2 font-bold text-[#D21F1B]">Vase krojacko rjesenje</div>
 			<div class="py-2 font-bold">Vrhunsko majstorstvo u svom najboljem izdanju</div>
 			<div class="py-2 text-[#424242]">
@@ -74,7 +76,7 @@
 			<a href="/contact" class="text-[#424242] underline hover:font-bold">Javite se</a>
 		</div>
 		<div class="px-2 md:w-1/2">
-			<img src={craft} alt="craft_picture" class="h-70 w-dvh sm:h-80 md:h-95 lg:h-140" />
+			<img src={craft} alt="craft_picture" class="h-70 w-dvh sm:h-80 md:h-95 lg:h-140 rounded-2xl" />
 		</div>
 	</div>
 </section>
