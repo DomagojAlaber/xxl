@@ -6,7 +6,7 @@
 	}
 
 	function closeHamburger() {
-		console.log('tvoja stara');
+		menuOpen = false;
 	}
 </script>
 
