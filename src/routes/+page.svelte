@@ -61,7 +61,7 @@
 	<div id="trustmary-container" class="my-8 px-2 sm:px-4 lg:px-100"></div>
 </section>
 
-<section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
+<section class="relative bg-cover bg-center px-2 pb-15 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center md:w-1/2 px-2">
 			<div class="py-2 font-bold text-[#D21F1B] text-xl md:text-2xl">Vase krojacko rjesenje</div>
