@@ -38,7 +38,7 @@
 </script>
 
 <section
-	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50 "
+	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
 	style="background-image: url({home});"
 >
 	<div class="absolute inset-0 bg-black opacity-50"></div>
@@ -63,20 +63,26 @@
 
 <section class="relative bg-cover bg-center px-2 pb-15 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
-		<div class="flex flex-col items-start justify-center md:w-1/2 px-2">
-			<div class="py-2 font-bold text-[#D21F1B] text-xl md:text-2xl">Vase krojacko rjesenje</div>
-			<div class="py-2 font-bold">Vrhunsko majstorstvo u svom najboljem izdanju</div>
-			<div class="py-2 text-[#424242] text-lg">
-				U XXL krojačkom obrtu ponosimo se pružanjem izvanrednih usluga krojenja u Puli. Naše vješte
-				krojačice kombiniraju tradicionalne tehnike s modernim stilovima kako bi stvorili odjeću po
-				mjeri koja savršeno pristaje. Bilo da vam trebaju prepravke ili odjevni predmet po mjeri,
-				usredotočeni smo na kvalitetu i preciznost u svakom šavu. Vjerujte nam da ćemo unaprijediti
-				vaš ormar prilagođenim rješenjima koja odražavaju vašu individualnost i stil.
+		<div class="flex flex-col items-start justify-center px-2 md:w-1/2">
+			<div class="py-2 text-xl font-bold text-[#D21F1B] md:text-2xl">Vaše krojačko rješenje</div>
+			<div class="py-2 font-bold">Odjeća koja Vam pristaje i priča Vašu priču</div>
+			<div class="py-2 text-lg text-[#424242]">
+				Imate odjeću koja Vam ne pristaje savršeno? Trebate li osvježiti dragi komad ili želite
+				jedinstvenu kreaciju po Vašoj zamisli? Ovdje u Puli spajamo vještinu i Vaše želje. Bilo da
+				se radi o finim prepravkama koje čine čuda ili o šivanju nove haljine, suknje ili hlača baš
+				po Vašoj mjeri, posvećeni smo tome da se u svojoj odjeći osjećate izvrsno i samopouzdano.
+				Vaš stil i udobnost su naš prioritet. Javite nam se i pretvorimo Vaše ideje u stvarnost.
 			</div>
-			<a href="/contact" class="text-[#424242] underline hover:font-bold text-lg">Javite se</a>
+			<a href="/contact" class="text-lg text-[#424242] underline hover:font-bold"
+				>Donesite nam Vašu ideju</a
+			>
 		</div>
-		<div class="px-2 md:w-1/2">
-			<img src={craft} alt="craft_picture" class="h-70 w-dvh sm:h-80 md:h-95 lg:h-140 rounded-2xl" />
+		<div class="px-2 py-2 md:w-1/2">
+			<img
+				src={craft}
+				alt="craft_picture"
+				class="h-70 w-dvh rounded-2xl sm:h-80 md:h-95 lg:h-140"
+			/>
 		</div>
 	</div>
 </section>
@@ -84,14 +90,12 @@
 <section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-110">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
-			Naše kvalitetne usluge i vrijednosti
+			Kvaliteta i vrijednosti u službi Vašeg stila
 		</h2>
-		<!-- Container that is horizontally scrollable on small screens -->
 		<div
 			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-3 md:grid-rows-2 md:overflow-x-visible"
 		>
 			{#each cards as card}
-				<!-- Wrap each card in a container that prevents shrinking on small screens -->
 				<QualityCard image={imageMap[card.image]} title={card.title} text={card.text} />
 			{/each}
 		</div>

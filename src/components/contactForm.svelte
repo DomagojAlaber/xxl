@@ -71,7 +71,7 @@
 			<textarea
 				name="comment"
 				bind:value={message}
-				placeholder="Kako vam mozemo pomoci?"
+				placeholder="Kako vam možemo pomoći?"
 				rows="5"
 				class="w-full resize-none border-b border-gray-300 py-2 transition-colors duration-300 focus:border-[#D21F1B] focus:outline-none"
 			></textarea>
