@@ -43,21 +43,21 @@
 		<div class="absolute top-full left-0 w-full space-y-2 bg-gray-100 px-4 py-2 md:hidden">
 			<a
 				href="/"
-				class="underline-animation block text-center text-sm hover:text-[#D21F1B]"
+				class="underline-animation block text-center text-md hover:text-[#D21F1B]"
 				on:click={closeHamburger}
 			>
 				Pocetna
 			</a>
 			<a
 				href="/catalog"
-				class="underline-animation block text-center text-sm hover:text-[#D21F1B]"
+				class="underline-animation block text-center text-md hover:text-[#D21F1B]"
 				on:click={closeHamburger}
 			>
 				Cjenik
 			</a>
 			<a
 				href="/contact"
-				class="block rounded bg-[#D21F1B] px-4 py-2 text-center text-xs text-white hover:bg-black"
+				class="block rounded bg-[#D21F1B] px-4 py-2 text-center text-md text-white hover:bg-black"
 				on:click={closeHamburger}
 			>
 				Kontakt

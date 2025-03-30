@@ -17,7 +17,7 @@
 
 <section class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-110">
 	<div class="mx-auto max-w-6xl">
-		<h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">KONTAKTIRAJTE NAS</h2>
+		<h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">Kontaktirajte nas</h2>
 		<div class="md:flex md:justify-evenly md:pt-5 md:pb-5">
 			<div class="text-center md:text-left">
 				<h2 class="py-2 text-xl font-bold text-gray-700">Adresa</h2>
@@ -71,7 +71,7 @@
 			<textarea
 				name="comment"
 				bind:value={message}
-				placeholder="Tekst"
+				placeholder="Kako vam mozemo pomoci?"
 				rows="5"
 				class="w-full resize-none border-b border-gray-300 py-2 transition-colors duration-300 focus:border-[#D21F1B] focus:outline-none"
 			></textarea>
@@ -80,7 +80,7 @@
 				type="submit"
 				class="mt-4 block w-full rounded bg-[#D21F1B] px-4 py-2 text-white transition-colors duration-300 hover:bg-black"
 			>
-				SEND
+				POSALJI
 			</button>
 		</form>
 

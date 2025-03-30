@@ -47,7 +47,7 @@
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
 				Krojimo po vašoj mjeri, jer svaki detalj pravi razliku
 			</h1>
-			<p class="mb-6">
+			<p class="mb-6 text-lg">
 				Kvalitetnim šivanjem i pažnjom na detalje, stavljamo pečat ručnog rada na svaki šav.
 			</p>
 			<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2.5 text-white hover:bg-black">
@@ -64,16 +64,16 @@
 <section class="relative bg-cover bg-center px-2 py-20 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center md:w-1/2 px-2">
-			<div class="py-2 font-bold text-[#D21F1B]">Vase krojacko rjesenje</div>
+			<div class="py-2 font-bold text-[#D21F1B] text-xl md:text-2xl">Vase krojacko rjesenje</div>
 			<div class="py-2 font-bold">Vrhunsko majstorstvo u svom najboljem izdanju</div>
-			<div class="py-2 text-[#424242]">
+			<div class="py-2 text-[#424242] text-lg">
 				U XXL krojačkom obrtu ponosimo se pružanjem izvanrednih usluga krojenja u Puli. Naše vješte
 				krojačice kombiniraju tradicionalne tehnike s modernim stilovima kako bi stvorili odjeću po
 				mjeri koja savršeno pristaje. Bilo da vam trebaju prepravke ili odjevni predmet po mjeri,
 				usredotočeni smo na kvalitetu i preciznost u svakom šavu. Vjerujte nam da ćemo unaprijediti
 				vaš ormar prilagođenim rješenjima koja odražavaju vašu individualnost i stil.
 			</div>
-			<a href="/contact" class="text-[#424242] underline hover:font-bold">Javite se</a>
+			<a href="/contact" class="text-[#424242] underline hover:font-bold text-lg">Javite se</a>
 		</div>
 		<div class="px-2 md:w-1/2">
 			<img src={craft} alt="craft_picture" class="h-70 w-dvh sm:h-80 md:h-95 lg:h-140 rounded-2xl" />
