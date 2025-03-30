@@ -4,7 +4,6 @@
 	import cardsData from '$lib/data/cards.json';
 
 	import home from '$lib/images/home.jpeg';
-	import craft from '$lib/images/craft.jpg';
 	import card1 from '$lib/images/cards/card1.jpg';
 	import card2 from '$lib/images/cards/card2.jpg';
 	import card3 from '$lib/images/cards/card3.jpeg';
@@ -38,10 +37,17 @@
 </script>
 
 <section
-	class="relative bg-cover bg-center px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
-	style="background-image: url({home});"
+	class="relative px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
 >
-	<div class="absolute inset-0 bg-black opacity-50"></div>
+	<div class="absolute inset-0 -z-10">
+		<enhanced:img
+			src="../lib/images/home.jpeg"
+			alt="Pozadinska slika"
+			class="h-full w-full object-cover"
+		/>
+		<div class="absolute inset-0 bg-black opacity-50"></div>
+	</div>
+
 	<div class="relative mx-auto flex max-w-6xl flex-col items-center justify-center md:flex-row">
 		<div class="mb-8 text-white md:mr-8 md:mb-0 md:w-1/2">
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
@@ -78,8 +84,8 @@
 			>
 		</div>
 		<div class="px-2 py-2 md:w-1/2">
-			<img
-				src={craft}
+			<enhanced:img
+				src="../lib/images/craft.jpg"
 				alt="craft_picture"
 				class="h-70 w-dvh rounded-2xl sm:h-80 md:h-95 lg:h-140"
 			/>
