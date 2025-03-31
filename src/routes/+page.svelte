@@ -10,7 +10,6 @@
 	import card5 from '$lib/images/cards/card5.jpeg';
 	import card6 from '$lib/images/cards/card6.jpeg';
 
-	
 	import { onMount } from 'svelte';
 	import type { CardData } from '$lib/types';
 
@@ -34,7 +33,6 @@
 		'card5.jpeg': card5,
 		'card6.jpeg': card6
 	};
-
 </script>
 
 <section
