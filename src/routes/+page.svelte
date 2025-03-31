@@ -53,7 +53,7 @@
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
 				Krojimo po vašoj mjeri, jer svaki detalj pravi razliku
 			</h1>
-			<p class="mb-6 text-lg">
+			<p class="mb-6 text-2xl">
 				Kvalitetnim šivanjem i pažnjom na detalje, stavljamo pečat ručnog rada na svaki šav.
 			</p>
 			<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2.5 text-white hover:bg-black">
@@ -70,8 +70,8 @@
 <section class="relative bg-cover bg-center px-2 pb-15 sm:px-4 md:px-20 lg:px-110">
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center px-2 md:w-1/2">
-			<div class="py-2 text-xl font-bold text-[#D21F1B] md:text-2xl">Vaše krojačko rješenje</div>
-			<div class="py-2 font-bold">Odjeća koja Vam pristaje i priča Vašu priču</div>
+			<div class="py-2 text-2xl font-bold text-[#D21F1B] md:text-2xl">Vaše krojačko rješenje</div>
+			<div class="py-2 font-bold text-xl">Odjeća koja Vam pristaje i priča Vašu priču</div>
 			<div class="py-2 text-lg text-[#424242]">
 				Imate odjeću koja Vam ne pristaje savršeno? Trebate li osvježiti dragi komad ili želite
 				jedinstvenu kreaciju po Vašoj zamisli? Ovdje u Puli spajamo vještinu i Vaše želje. Bilo da

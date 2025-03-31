@@ -20,14 +20,14 @@
 		<h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">Kontaktirajte nas</h2>
 		<div class="md:flex md:justify-evenly md:pt-5 md:pb-5">
 			<div class="text-center md:text-left">
-				<h2 class="py-2 text-xl font-bold text-gray-700">Adresa</h2>
+				<h2 class="py-2 text-2xl font-bold text-gray-700">Adresa</h2>
 				<a
 					href="https://www.google.com/maps/place/Xxl+Kroja%C4%8Dki+Obrt/@44.870539,13.851587,16z/data=!4m6!3m5!1s0x477cd2dfb918a7ad:0xa3abdd1712f50bf7!8m2!3d44.8705393!4d13.8515871!16s%2Fg%2F11qmmkz1wb?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-xl underline">52100 Pula, Teslina ulica 18</a
 				>
-				<h2 class="py-2 md:pt-6 text-xl font-bold text-gray-700">Telefon</h2>
+				<h2 class="py-2 md:pt-6 text-2xl font-bold text-gray-700">Telefon</h2>
 				<div class="text-xl underline">+385 98 201 1971</div>
 			</div>
 			<div class="text-center md:text-left">
@@ -43,7 +43,7 @@
 		</div>
 		<form id="contactform" action="https://formsubmit.io/send/testic.nikola@gmail.com" method="POST">
 			<input name="_redirect" type="hidden" id="name" value="/">
-			<div class="flex flex-col space-y-4 pt-2 md:flex-row md:space-y-0 md:space-x-4">
+			<div class="flex flex-col pt-2 md:flex-row md:space-y-0 md:space-x-4">
 				<input
 					name="name"
 					type="text"

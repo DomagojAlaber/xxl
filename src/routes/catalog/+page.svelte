@@ -7,7 +7,7 @@
       <h1 class="text-center text-3xl font-bold mb-6 md:text-4xl">
         Naše usluge po vašoj mjeri
       </h1>
-      <p class="text-center text-gray-700 mb-10">
+      <p class="text-center text-lg text-gray-700 mb-10">
         Dobrodošli u naš katalog usluga XXL krojačkog obrta. Ovdje ćete pronaći detaljan pregled naših najtraženijih usluga. Bilo da trebate odjeću za posebne prilike, svakodnevne komade ili prepravke koje će vašoj omiljenoj odjeći dati novi život – mi smo tu za vas.
       </p>
       <div class="overflow-x-auto">
