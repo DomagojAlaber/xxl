@@ -2,28 +2,13 @@
 	import ContactForm from '../components/contactForm.svelte';
 	import QualityCard from '../components/qualityCard.svelte';
 	import cardsData from '$lib/data/cards.json';
-
-	import home from '$lib/images/home.jpeg';
-	import card1 from '$lib/images/cards/card1.jpg';
-	import card2 from '$lib/images/cards/card2.jpg';
-	import card3 from '$lib/images/cards/card3.jpeg';
-	import card4 from '$lib/images/cards/card4.jpeg';
-	import card5 from '$lib/images/cards/card5.jpeg';
-	import card6 from '$lib/images/cards/card6.jpeg';
-
+	
+	import card1 from '../lib/images/cards/card1.jpg?enhanced'
+	const card2 = '../lib/images/cards/card1.jpg?enhanced'
 	import { onMount } from 'svelte';
 	import type { CardData } from '$lib/types';
 
 	const cards = cardsData as CardData[];
-
-	const imageMap: Record<CardData['image'], string> = {
-		'card1.jpg': card1,
-		'card2.jpg': card2,
-		'card3.jpg': card3,
-		'card4.jpg': card4,
-		'card5.jpg': card5,
-		'card6.jpg': card6
-	};
 
 	onMount(() => {
 		const script = document.createElement('script');
@@ -34,6 +19,7 @@
 			container.appendChild(script);
 		}
 	});
+
 </script>
 
 <section
@@ -41,7 +27,7 @@
 >
 	<div class="absolute inset-0 -z-10">
 		<enhanced:img
-			src="../lib/images/home.jpeg"
+			src="/src/lib/images/home.jpeg?enhanced"
 			alt="Pozadinska slika"
 			class="h-full w-full object-cover"
 		/>
@@ -71,7 +57,7 @@
 	<div class="flex flex-col items-center justify-between md:flex-row">
 		<div class="flex flex-col items-start justify-center px-2 md:w-1/2">
 			<div class="py-2 text-2xl font-bold text-[#D21F1B] md:text-2xl">Vaše krojačko rješenje</div>
-			<div class="py-2 font-bold text-xl">Odjeća koja Vam pristaje i priča Vašu priču</div>
+			<div class="py-2 text-xl font-bold">Odjeća koja Vam pristaje i priča Vašu priču</div>
 			<div class="py-2 text-lg text-[#424242]">
 				Imate odjeću koja Vam ne pristaje savršeno? Trebate li osvježiti dragi komad ili želite
 				jedinstvenu kreaciju po Vašoj zamisli? Ovdje u Puli spajamo vještinu i Vaše želje. Bilo da
@@ -102,7 +88,7 @@
 			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-3 md:grid-rows-2 md:overflow-x-visible"
 		>
 			{#each cards as card}
-				<QualityCard image={imageMap[card.image]} title={card.title} text={card.text} />
+				<QualityCard src={card.image} title={card.title} text={card.text} />
 			{/each}
 		</div>
 	</div>
