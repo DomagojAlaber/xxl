@@ -1,31 +1,31 @@
 [
 	{
-		"image": "/src/lib/images/cards/card1.jpg?enhanced",
+		"image": "card1.jpg",
 		"title": "Personalizirani dizajn",
 		"text": "Imate ideju za jedinstveni komad odjeće? Zajedno ćemo je pretvoriti u stvarnost, kreirajući odjeću koja savršeno izražava Vaš stil i laska Vašoj figuri."
 	},
 	{
-		"image": "/src/lib/images/cards/card2.jpg?enhanced",
+		"image": "card2.jpg",
 		"title": "Vrhunska kvaliteta",
 		"text": "Uživajte u odjeći koja ne samo da izgleda predivno, već je i izdržljiva i udobna. Pažljivo biramo materijale i posvećujemo pažnju svakom šavu za Vašu dugotrajnu eleganciju."
 	},
 	{
-		"image": "/src/lib/images/cards/card3.jpeg?enhanced",
+		"image": "card3.jpeg",
 		"title": "Stručni savjeti i brza usluga",
 		"text": "Trebate savjet oko kroja ili materijala? Tu smo za Vas. Pružamo stručnu podršku i efikasnu uslugu kako biste brzo dobili odjeću u kojoj izgledate besprijekorno i osjećate se samopouzdano."
 	},
 	{
-		"image": "/src/lib/images/cards/card4.jpeg?enhanced",
+		"image": "card4.jpeg",
 		"title": "Krojenje po mjeri",
 		"text": "Recite zbogom odjeći koja 'skoro' pristaje. Krojenjem po Vašim mjerama, osiguravamo da svaki komad – bio to sako, hlače ili haljina – savršeno prati Vašu liniju i pruža maksimalnu udobnost."
 	},
 	{
-		"image": "/src/lib/images/cards/card5.jpeg?enhanced",
+		"image": "card5.jpeg",
 		"title": "Preinake i popravci",
 		"text": "Ne odričite se omiljenih komada! Bilo da je potreban manji popravak ili veća preinaka (skraćivanje, sužavanje, proširivanje), udahnjujemo novi život Vašoj odjeći kako biste je mogli nositi još dugo."
 	},
 	{
-		"image": "/src/lib/images/cards/card6.jpeg?enhanced",
+		"image": "card6.jpeg",
 		"title": "Efikasnost i pouzdanost",
 		"text": "Vaše povjerenje nam je važno. Možete računati na preciznu izradu i poštivanje dogovorenih rokova. Posvećeni smo tome da Vaše krojačke potrebe budu ispunjene efikasno i pouzdano."
 	}

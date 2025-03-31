@@ -2,6 +2,7 @@
 	export let src: string;
 	export let title: string;
 	export let text: string;
+	console.log(src);
 </script>
 
 <div class="w-80 flex-shrink-0 rounded bg-white p-6 text-center shadow md:w-auto">
