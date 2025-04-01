@@ -3,12 +3,12 @@
 	import QualityCard from '../components/qualityCard.svelte';
 	import cardsData from '$lib/data/cards.json';
 
-	import card1 from '$lib/images/cards/card1.jpg';
-	import card2 from '$lib/images/cards/card2.jpg';
-	import card3 from '$lib/images/cards/card3.jpeg';
-	import card4 from '$lib/images/cards/card4.jpeg';
-	import card5 from '$lib/images/cards/card5.jpeg';
-	import card6 from '$lib/images/cards/card6.jpeg';
+	import card1 from '$lib/images/cards/card1.jpg?enhanced';
+	import card2 from '$lib/images/cards/card2.jpg?enhanced';
+	import card3 from '$lib/images/cards/card3.jpeg?enhanced';
+	import card4 from '$lib/images/cards/card4.jpeg?enhanced';
+	import card5 from '$lib/images/cards/card5.jpeg?enhanced';
+	import card6 from '$lib/images/cards/card6.jpeg?enhanced';
 
 	import { onMount } from 'svelte';
 	import type { CardData } from '$lib/types';
@@ -25,7 +25,7 @@
 		}
 	});
 
-	const imageMap: Record<CardData['image'], string> = {
+	const imageMap: Record<CardData['image'], any> = {
 		'card1.jpg': card1,
 		'card2.jpg': card2,
 		'card3.jpeg': card3,

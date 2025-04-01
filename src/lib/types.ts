@@ -1,6 +1,5 @@
-// In a separate file (e.g., src/lib/types.ts) or in your <script> tag:
 export type CardData = {
-    image: 'card1.jpg' | 'card2.jpg' | 'card3.jpg' | 'card4.jpg' | 'card5.jpg' | 'card6.jpg';
+    image: 'card1.jpg' | 'card2.jpg' | 'card3.jpeg' | 'card4.jpeg' | 'card5.jpeg' | 'card6.jpeg';
     title: string;
     text: string;
   };
