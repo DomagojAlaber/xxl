@@ -1,4 +1,6 @@
 <script>
+	import logo from '$lib/images/sewing-machine.png?enhanced';
+
 	let menuOpen = false;
 
 	function toggleHamburger() {
@@ -13,8 +15,11 @@
 <nav
 	class="sticky top-0 z-50 flex items-center justify-between bg-white px-2 py-2 sm:px-4 md:px-20 lg:px-110"
 >
-	<a href="/" class="hidden text-2xl font-extrabold md:block">XXL KROJACKI OBRT</a>
-	<a href="/" class="block text-2xl font-extrabold md:hidden">XXL</a>
+	<div class="flex items-center space-x-4">
+		<enhanced:img src={logo} alt="XXL KROJACKI OBRT Logo" class="h-auto w-12" />
+		<a href="/" class="hidden text-3xl font-extrabold md:block">XXL KROJACKI OBRT</a>
+		<a href="/" class="block text-3xl font-extrabold md:hidden">XXL</a>
+	</div>
 
 	<div class="hidden items-center space-x-4 md:flex">
 		<a href="/" class="underline-animation hover:text-[#D21F1B]">Pocetna</a>
@@ -43,21 +48,21 @@
 		<div class="absolute top-full left-0 w-full space-y-2 bg-gray-100 px-4 py-2 md:hidden">
 			<a
 				href="/"
-				class="underline-animation block text-center text-md hover:text-[#D21F1B]"
+				class="underline-animation text-md block text-center hover:text-[#D21F1B]"
 				on:click={closeHamburger}
 			>
 				Pocetna
 			</a>
 			<a
 				href="/catalog"
-				class="underline-animation block text-center text-md hover:text-[#D21F1B]"
+				class="underline-animation text-md block text-center hover:text-[#D21F1B]"
 				on:click={closeHamburger}
 			>
 				Cjenik
 			</a>
 			<a
 				href="/contact"
-				class="block rounded bg-[#D21F1B] px-4 py-2 text-center text-md text-white hover:bg-black"
+				class="text-md block rounded bg-[#D21F1B] px-4 py-2 text-center text-white hover:bg-black"
 				on:click={closeHamburger}
 			>
 				Kontakt
