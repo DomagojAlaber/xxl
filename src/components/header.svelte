@@ -16,13 +16,15 @@
 	class="sticky top-0 z-50 flex items-center justify-between bg-white px-2 py-2 sm:px-4 md:px-20 lg:px-110"
 >
 	<div class="flex items-center space-x-4">
-		<enhanced:img src={logo} alt="XXL KROJACKI OBRT Logo" class="h-auto w-12" />
+		<a href="/">
+			<enhanced:img src={logo} alt="XXL KROJACKI OBRT Logo" class="h-auto w-12" />
+		</a>
 		<a href="/" class="hidden text-3xl font-extrabold md:block">XXL KROJACKI OBRT</a>
 		<a href="/" class="block text-3xl font-extrabold md:hidden">XXL</a>
 	</div>
 
 	<div class="hidden items-center space-x-4 md:flex">
-		<a href="/" class="underline-animation hover:text-[#D21F1B]">Pocetna</a>
+		<a href="/" class="underline-animation hover:text-[#D21F1B]">Početna</a>
 		<a href="/catalog" class="underline-animation hover:text-[#D21F1B]">Cjenik</a>
 		<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2 text-white"> Kontakt </a>
 	</div>
@@ -51,7 +53,7 @@
 				class="underline-animation text-md block text-center hover:text-[#D21F1B]"
 				on:click={closeHamburger}
 			>
-				Pocetna
+				Početna
 			</a>
 			<a
 				href="/catalog"

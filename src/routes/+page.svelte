@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ContactForm from '../components/contactForm.svelte';
 	import QualityCard from '../components/qualityCard.svelte';
+	import Seo from '../components/seo.svelte';
 	import cardsData from '$lib/data/cards.json';
 
 	import card1 from '$lib/images/cards/card1.jpg?enhanced';
@@ -108,3 +109,8 @@
 </section>
 
 <ContactForm />
+
+<Seo
+	title="Početna"
+	description="Unaprijedite svoj stil uz naše vrhunske krojačke usluge u Puli. Nudimo šivanje po mjeri, precizne prepravke i jedinstvene kreacije prilagođene vašem osobnom ukusu. Doživite savršeno pristajanje i iznimnu izradu koja nas izdvaja u svijetu personalizirane mode."
+/>
