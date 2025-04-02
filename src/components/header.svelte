@@ -20,7 +20,7 @@
 		<a href="/">
 			<enhanced:img src={logo} alt="XXL KROJACKI OBRT Logo" class="h-auto w-12" />
 		</a>
-		<a href="/" class="hidden text-3xl font-extrabold md:block">XXL KROJACKI OBRT</a>
+		<a href="/" class="hidden text-3xl font-extrabold md:block">XXL KROJAČKI OBRT</a>
 		<a href="/" class="block text-3xl font-extrabold md:hidden">XXL</a>
 	</div>
 

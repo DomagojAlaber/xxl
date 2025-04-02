@@ -35,7 +35,7 @@
 
 				<div>Pon - Sri - Pet</div>
 				<div class="text-xl">12:00 - 19:00</div>
-				<div>Uto - Cet</div>
+				<div>Uto - Čet</div>
 				<div class="text-xl">08:00 - 15:00</div>
 				<div>Subota</div>
 				<div class="text-xl">08:00 - 13:00</div>
@@ -80,7 +80,7 @@
 				type="submit"
 				class="mt-4 block w-full rounded bg-[#D21F1B] px-4 py-2 text-white transition-colors duration-300 hover:bg-black"
 			>
-				POSALJI
+				Pošalji
 			</button>
 		</form>
 
