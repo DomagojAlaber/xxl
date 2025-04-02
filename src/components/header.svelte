@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/images/sewing-machine.png?enhanced';
-	import { fly } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 
 	let menuOpen = false;
 
@@ -50,7 +50,7 @@
 	{#if menuOpen}
 		<div
 			class="absolute top-full left-0 w-full space-y-2 bg-gray-100 px-4 py-2 md:hidden"
-			transition:fly={{ duration: 500, y: -5 }}
+			transition:slide={{ duration: 400}}
 		>
 			<a
 				href="/"
