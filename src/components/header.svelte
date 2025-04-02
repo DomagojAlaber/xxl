@@ -1,5 +1,6 @@
 <script>
 	import logo from '$lib/images/sewing-machine.png?enhanced';
+	import { fly } from 'svelte/transition';
 
 	let menuOpen = false;
 
@@ -47,7 +48,10 @@
 	</button>
 
 	{#if menuOpen}
-		<div class="absolute top-full left-0 w-full space-y-2 bg-gray-100 px-4 py-2 md:hidden">
+		<div
+			class="absolute top-full left-0 w-full space-y-2 bg-gray-100 px-4 py-2 md:hidden"
+			transition:fly={{ duration: 500, y: -5 }}
+		>
 			<a
 				href="/"
 				class="underline-animation text-md block text-center hover:text-[#D21F1B]"

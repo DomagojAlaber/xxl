@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} | XXL</title>
+	<title>{title} | XXL krojački obrt</title>
 	<meta name="description" content={description} />
 	<meta property="og_site_name" content="xxlkrojackiobrt.com”" />
 	<meta property="og:url" content="https://www.xxlkrojackiobrt.com{page.url.pathname.toString()}" />
