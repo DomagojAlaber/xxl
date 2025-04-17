@@ -21,9 +21,7 @@
 		script.src = 'https://widget.trustmary.com/fiObpUIut';
 		script.async = true;
 		const container = document.getElementById('trustmary-container');
-		if (container) {
-			container.appendChild(script);
-		}
+		container?.appendChild(script);
 	});
 
 	const imageMap: Record<CardData['image'], any> = {
@@ -36,9 +34,8 @@
 	};
 </script>
 
-<section
-	class="relative px-4 py-16 sm:h-80 sm:px-6 sm:py-20 md:h-96 md:px-20 md:py-40 lg:h-[650px] lg:py-50"
->
+<!-- Hero -->
+<section class="relative py-16 sm:py-20 md:py-40 lg:py-52">
 	<div class="absolute inset-0 -z-10">
 		<enhanced:img
 			src="/src/lib/images/home.jpeg?enhanced"
@@ -48,47 +45,55 @@
 		<div class="absolute inset-0 bg-black opacity-50"></div>
 	</div>
 
-	<div class="relative mx-auto flex max-w-6xl flex-col items-center justify-center md:flex-row">
-		<div class="mb-8 text-white md:mr-8 md:mb-0 md:w-1/2">
+	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center md:flex-row">
+		<div class="mb-8 text-center text-white md:text-left md:mr-8 md:mb-0">
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
 				Krojimo po vašoj mjeri, jer svaki detalj pravi razliku
 			</h1>
 			<p class="mb-6 text-2xl">
-				Kvalitetnim šivanjem i pažnjom na detalje, stavljamo pečat ručnog rada na svaki šav.
+				U središtu Pule, naš krojački obrt njeguje tradiciju preciznosti, kvalitete i osobnog pristupa. Svaki šav govori priču o pažnji, posvećenosti i vještini.
 			</p>
-			<a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2.5 text-white hover:bg-black">
-				Kontaktirajte nas
+			<a
+				href="/contact"
+				class="inline-block rounded bg-[#D21F1B] px-6 py-3 text-white hover:bg-black"
+			>
+				Javite nam se
 			</a>
 		</div>
 	</div>
 </section>
 
+<!-- Shapo Widget -->
 <section class="bg-gray-50">
-	<div id="shapo-widget-2de7e86a7a807cb78214"></div>
-	<script id="shapo-embed-js" type="text/javascript" src="https://cdn.shapo.io/js/embed.js" defer></script>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+		<div id="shapo-widget-2de7e86a7a807cb78214"></div>
+		<script
+			id="shapo-embed-js"
+			type="text/javascript"
+			src="https://cdn.shapo.io/js/embed.js"
+			defer
+		></script>
+	</div>
 </section>
 
-<section class="relative bg-cover bg-center px-2 pb-15 sm:px-4 md:px-20 lg:px-110">
-	<div class="flex flex-col items-center justify-between md:flex-row">
-		<div class="flex flex-col items-start justify-center px-2 md:w-1/2">
-			<div class="py-2 text-2xl font-bold text-[#D21F1B] md:text-2xl">Vaše krojačko rješenje</div>
-			<div class="py-2 text-xl font-bold">Odjeća koja Vam pristaje i priča Vašu priču</div>
-			<div class="py-2 text-lg text-[#424242]">
-				Imate odjeću koja Vam ne pristaje savršeno? Trebate li osvježiti dragi komad ili želite
-				jedinstvenu kreaciju po Vašoj zamisli? Ovdje u Puli spajamo vještinu i Vaše želje. Bilo da
-				se radi o finim prepravkama koje čine čuda ili o šivanju nove haljine, suknje ili hlača baš
-				po Vašoj mjeri, posvećeni smo tome da se u svojoj odjeći osjećate izvrsno i samopouzdano.
-				Vaš stil i udobnost su naš prioritet. Javite nam se i pretvorimo Vaše ideje u stvarnost.
-			</div>
-			<a href="/contact" class="text-lg text-[#424242] underline hover:font-bold"
-				>Donesite nam Vašu ideju</a
-			>
+<!-- Vision Section -->
+<section class="relative bg-cover bg-center py-16 sm:py-20 md:py-24">
+	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+		<div class="space-y-4 md:w-1/2">
+			<h2 class="text-2xl font-bold text-[#D21F1B]">Vaša vizija. Naša izrada.</h2>
+			<h3 class="text-xl font-bold">Krojenje koje se prilagođava Vama</h3>
+			<p class="text-lg text-[#424242]">
+				Tražite savršeno pristajanje? Od prepravki koje vraćaju život Vašoj omiljenoj odjeći, do dizajna koji reflektira Vaš jedinstveni stil — ovdje smo da stvorimo komade koji vas predstavljaju. U našem ateljeu spajamo tradicionalne tehnike s modernim željama, kako bismo svakom klijentu pružili osjećaj posebnosti i elegancije.
+			</p>
+			<a href="/contact" class="text-lg text-[#424242] underline hover:font-bold">
+				Podijelite svoju ideju s nama
+			</a>
 		</div>
-		<div class="px-2 py-2 md:w-1/2">
+		<div class="mt-8 md:mt-0 md:w-1/2">
 			<enhanced:img
 				src="../lib/images/craft.jpg"
-				alt="craft_picture"
-				class="h-70 w-dvh rounded-2xl sm:h-80 md:h-95 lg:h-140"
+				alt="krojačka radionica"
+				class="w-full rounded-2xl object-cover"
 			/>
 		</div>
 	</div>
@@ -97,7 +102,7 @@
 <section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-110">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
-			Kvaliteta i vrijednosti u službi Vašeg stila
+			Detalji koji čine razliku
 		</h2>
 		<div
 			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-3 md:grid-rows-2 md:overflow-x-visible"
@@ -113,5 +118,5 @@
 
 <Seo
 	title="Početna"
-	description="Unaprijedite svoj stil uz naše vrhunske krojačke usluge u Puli. Nudimo šivanje po mjeri, precizne prepravke i jedinstvene kreacije prilagođene vašem osobnom ukusu. Doživite savršeno pristajanje i iznimnu izradu koja nas izdvaja u svijetu personalizirane mode."
+	description="Otkrijte krojački obrt u Puli koji njeguje vrhunsku izradu, osobni pristup i savršeno pristajanje. Od šivanja po mjeri do prepravki — svaki komad nosi Vaš potpis."
 />

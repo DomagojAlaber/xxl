@@ -17,7 +17,7 @@
 	class="sticky top-0 z-50 flex items-center justify-between bg-white px-2 py-2 sm:px-4 md:px-20 lg:px-110"
 >
 	<div class="flex items-center space-x-4">
-		<a href="/">
+		<a href="/" aria-label="XXL KROJAČKI OBRT">
 			<enhanced:img src={logo} alt="XXL KROJACKI OBRT Logo" class="h-auto w-12" />
 		</a>
 		<a href="/" class="hidden text-3xl font-extrabold md:block">XXL KROJAČKI OBRT</a>
