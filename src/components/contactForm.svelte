@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { scrollAnimation } from "$lib/actions/scrollAnimation";
+
 	let submitting = false;
 	let submitted = false;
 	let error: string | null = null;
@@ -38,7 +40,7 @@
 	}
 </script>
 
-<section class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-30">
+<section use:scrollAnimation class="bg-white px-4 py-16 sm:px-6 md:px-20 lg:px-30">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">Kontaktirajte nas</h2>
 		<div class="md:flex md:justify-evenly md:pt-5 md:pb-5">

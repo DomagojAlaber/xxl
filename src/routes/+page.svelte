@@ -3,6 +3,7 @@
 	import QualityCard from '../components/qualityCard.svelte';
 	import Seo from '../components/seo.svelte';
 	import cardsData from '$lib/data/cards.json';
+	import { scrollAnimation } from '$lib/actions/scrollAnimation';
 
 	import card1 from '$lib/images/cards/card1.jpg?enhanced';
 	import card2 from '$lib/images/cards/card2.jpg?enhanced';
@@ -35,7 +36,7 @@
 </script>
 
 <!-- Hero -->
-<section class="relative py-16 sm:py-20 md:py-40 lg:py-52">
+<section use:scrollAnimation class="relative py-16 sm:py-20 md:py-40 lg:py-52">
 	<div class="absolute inset-0 -z-10">
 		<enhanced:img
 			src="/src/lib/images/home.jpeg?enhanced"
@@ -65,7 +66,7 @@
 </section>
 
 <!-- Shapo Widget -->
-<section class="bg-gray-50">
+<section use:scrollAnimation class="bg-gray-50">
 	<div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
 		<div id="shapo-widget-2de7e86a7a807cb78214"></div>
 		<script
@@ -78,7 +79,7 @@
 </section>
 
 <!-- Vision Section -->
-<section class="relative bg-cover bg-center py-16 sm:py-20 md:py-24">
+<section use:scrollAnimation class="relative bg-cover bg-center py-16 sm:py-20 md:py-24">
 	<div
 		class="mx-auto flex max-w-6xl flex-col items-center justify-between px-4 sm:px-4 md:flex-row md:px-20"
 	>
@@ -105,7 +106,7 @@
 	</div>
 </section>
 
-<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-30">
+<section use:scrollAnimation class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-30">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">Detalji koji čine razliku</h2>
 		<div
