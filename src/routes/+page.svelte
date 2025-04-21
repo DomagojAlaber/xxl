@@ -99,13 +99,13 @@
 	</div>
 </section>
 
-<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-110">
+<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 xl:px-110">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
 			Detalji koji čine razliku
 		</h2>
 		<div
-			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-3 md:grid-rows-2 md:overflow-x-visible"
+			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 md:overflow-x-visible"
 		>
 			{#each cards as card}
 				<QualityCard src={imageMap[card.image]} title={card.title} text={card.text} />
@@ -118,5 +118,5 @@
 
 <Seo
 	title="Početna"
-	description="Otkrijte krojački obrt u Puli koji njeguje vrhunsku izradu, osobni pristup i savršeno pristajanje. Od šivanja po mjeri do prepravki — svaki komad nosi Vaš potpis."
+	description="Otkrijte krojački obrt u Puli koji njeguje vrhunsku izradu, osobni pristup i savršeno pristajanje. Od šivanja po mjeri do prepravki, svaki komad nosi Vaš potpis · Teslina ulica 18, 52100 Pula · xxlkrojackiobrt@gmail.hr · +385 99 201 1971."
 />

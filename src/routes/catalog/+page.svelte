@@ -36,5 +36,5 @@
 
 <Seo
 	title="Cjenik"
-	description="Otkrijte naš cjenik krojačkih usluga u Puli, prilagođen vašim potrebama. Nudimo šivanje po mjeri, krojačke prepravke i popravke odjeće s naglaskom na kvalitetu i preciznost. Bilo da trebate skraćivanje hlača, sužavanje sakoa ili zamjenu zatvarača, naš tim stručnjaka stoji vam na raspolaganju. Pogledajte našu ponudu usluga i uvjerite se u našu predanost vašem stilu i udobnosti."
+	description="Otkrijte naš cjenik krojačkih usluga u Puli, prilagođen vašim potrebama. Nudimo šivanje po mjeri, krojačke prepravke i popravke odjeće s naglaskom na kvalitetu i preciznost. Bilo da trebate skraćivanje hlača, sužavanje sakoa ili zamjenu zatvarača, naš tim stručnjaka stoji vam na raspolaganju Otkrijte krojački obrt u Puli koji njeguje vrhunsku izradu, osobni pristup i savršeno pristajanje. Od šivanja po mjeri do prepravki, svaki komad nosi Vaš potpis · Teslina ulica 18, 52100 Pula · xxlkrojackiobrt@gmail.hr · +385 99 201 1971."
 />
