@@ -45,13 +45,14 @@
 		<div class="absolute inset-0 bg-black opacity-50"></div>
 	</div>
 
-	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center md:flex-row">
-		<div class="mb-8 text-center text-white md:text-left md:mr-8 md:mb-0">
+	<div class="mx-auto flex max-w-6xl flex-col items-center px-4 sm:px-6 md:flex-row lg:px-8">
+		<div class="mb-8 text-center text-white md:mr-8 md:mb-0 md:text-left">
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
 				Krojimo po vašoj mjeri, jer svaki detalj pravi razliku
 			</h1>
 			<p class="mb-6 text-2xl">
-				U središtu Pule, naš krojački obrt njeguje tradiciju preciznosti, kvalitete i osobnog pristupa. Svaki šav govori priču o pažnji, posvećenosti i vještini.
+				U središtu Pule, naš krojački obrt njeguje tradiciju preciznosti, kvalitete i osobnog
+				pristupa. Svaki šav govori priču o pažnji, posvećenosti i vještini.
 			</p>
 			<a
 				href="/contact"
@@ -65,7 +66,7 @@
 
 <!-- Shapo Widget -->
 <section class="bg-gray-50">
-	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+	<div class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
 		<div id="shapo-widget-2de7e86a7a807cb78214"></div>
 		<script
 			id="shapo-embed-js"
@@ -78,12 +79,17 @@
 
 <!-- Vision Section -->
 <section class="relative bg-cover bg-center py-16 sm:py-20 md:py-24">
-	<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+	<div
+		class="mx-auto flex max-w-6xl flex-col items-center justify-between px-4 sm:px-4 md:flex-row md:px-20"
+	>
 		<div class="space-y-4 md:w-1/2">
 			<h2 class="text-2xl font-bold text-[#D21F1B]">Vaša vizija. Naša izrada.</h2>
 			<h3 class="text-xl font-bold">Krojenje koje se prilagođava Vama</h3>
 			<p class="text-lg text-[#424242]">
-				Tražite savršeno pristajanje? Od prepravki koje vraćaju život Vašoj omiljenoj odjeći, do dizajna koji reflektira Vaš jedinstveni stil — ovdje smo da stvorimo komade koji vas predstavljaju. U našem ateljeu spajamo tradicionalne tehnike s modernim željama, kako bismo svakom klijentu pružili osjećaj posebnosti i elegancije.
+				Tražite savršeno pristajanje? Od prepravki koje vraćaju život Vašoj omiljenoj odjeći, do
+				dizajna koji reflektira Vaš jedinstveni stil — ovdje smo da stvorimo komade koji vas
+				predstavljaju. U našem ateljeu spajamo tradicionalne tehnike s modernim željama, kako bismo
+				svakom klijentu pružili osjećaj posebnosti i elegancije.
 			</p>
 			<a href="/contact" class="text-lg text-[#424242] underline hover:font-bold">
 				Podijelite svoju ideju s nama
@@ -99,13 +105,11 @@
 	</div>
 </section>
 
-<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 xl:px-110">
+<section class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-30">
 	<div class="mx-auto max-w-6xl">
-		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">
-			Detalji koji čine razliku
-		</h2>
+		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">Detalji koji čine razliku</h2>
 		<div
-			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 md:overflow-x-visible"
+			class="flex gap-8 overflow-x-auto md:grid md:grid-cols-2 md:grid-rows-3 md:overflow-x-visible lg:grid-cols-3 lg:grid-rows-2"
 		>
 			{#each cards as card}
 				<QualityCard src={imageMap[card.image]} title={card.title} text={card.text} />
