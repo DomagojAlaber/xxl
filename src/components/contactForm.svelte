@@ -127,7 +127,7 @@
 				<button
 					type="submit"
 					disabled={submitting}
-					class="mt-4 block w-full rounded bg-[#D21F1B] px-4 py-2 text-white transition-colors duration-300 hover:bg-black disabled:cursor-not-allowed disabled:opacity-60"
+					class="mt-4 block w-full rounded bg-[#D21F1B] px-4 py-2 text-white duration-300 transition-transform hover:scale-105 disabled:cursor-not-allowed disabled:opacity-60"
 				>
 					{submitting ? 'Slanje...' : 'Pošalji'}
 				</button>

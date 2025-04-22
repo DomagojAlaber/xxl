@@ -36,17 +36,19 @@
 </script>
 
 <!-- Hero -->
-<section use:scrollAnimation class="relative py-16 sm:py-20 md:py-40 lg:py-52">
+<section use:scrollAnimation class="relative py-16 sm:py-20 md:py-40 lg:py-52 px-2 sm:px-4 md:px-20 lg:px-30">
 	<div class="absolute inset-0 -z-10">
 		<enhanced:img
 			src="/src/lib/images/home.jpeg?enhanced"
-			alt="Pozadinska slika"
+			alt="Pozadinska slika XXL krojačkog obrta u Puli"
+			loading="eager"
+			fetchpriority="high"
 			class="h-full w-full object-cover"
 		/>
 		<div class="absolute inset-0 bg-black opacity-50"></div>
 	</div>
 
-	<div class="mx-auto flex max-w-6xl flex-col items-center px-4 sm:px-6 md:flex-row lg:px-8">
+	<div class="mx-auto max-w-6xl flex flex-col items-center md:flex-row">
 		<div class="mb-8 text-center text-white md:mr-8 md:mb-0 md:text-left">
 			<h1 class="mb-4 text-3xl font-bold md:text-5xl">
 				Krojimo po vašoj mjeri, jer svaki detalj pravi razliku
@@ -57,7 +59,7 @@
 			</p>
 			<a
 				href="/contact"
-				class="inline-block rounded bg-[#D21F1B] px-6 py-3 text-white hover:bg-black"
+				class="inline-block rounded bg-[#D21F1B] px-6 py-3 text-white transition-transform duration-200 hover:scale-105"
 			>
 				Javite nam se
 			</a>
@@ -79,33 +81,41 @@
 </section>
 
 <!-- Vision Section -->
-<section use:scrollAnimation class="relative bg-cover bg-center py-16 sm:py-20 md:py-24">
-	<div
-		class="mx-auto flex max-w-6xl flex-col items-center justify-between px-4 sm:px-4 md:flex-row md:px-20"
-	>
-		<div class="space-y-4 md:w-1/2">
-			<h2 class="text-2xl font-bold text-[#D21F1B]">Vaša vizija. Naša izrada.</h2>
-			<h3 class="text-xl font-bold">Krojenje koje se prilagođava Vama</h3>
-			<p class="text-lg text-[#424242]">
-				Tražite savršeno pristajanje? Od prepravki koje vraćaju život Vašoj omiljenoj odjeći, do
-				dizajna koji reflektira Vaš jedinstveni stil — ovdje smo da stvorimo komade koji vas
-				predstavljaju. U našem ateljeu spajamo tradicionalne tehnike s modernim željama, kako bismo
-				svakom klijentu pružili osjećaj posebnosti i elegancije.
-			</p>
-			<a href="/contact" class="text-lg text-[#424242] underline hover:font-bold">
-				Podijelite svoju ideju s nama
-			</a>
-		</div>
-		<div class="mt-8 md:mt-0 md:w-1/2">
-			<enhanced:img
-				src="../lib/images/craft.jpg"
-				alt="krojačka radionica"
-				class="w-full rounded-2xl object-cover"
-			/>
-		</div>
-	</div>
+<section use:scrollAnimation class="relative bg-cover bg-center px-2 py-16 sm:px-4 md:px-20 lg:px-30">
+    <div class="relative mx-auto max-w-6xl flex flex-col-reverse md:flex-row items-center gap-8">
+      <div class="w-full md:w-1/2 space-y-4 text-center md:text-left">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#D21F1B]">
+          Vaša vizija. Naša izrada.
+        </h2>
+        <h3 class="text-xl sm:text-2xl font-semibold">
+          Krojenje koje se prilagođava Vama
+        </h3>
+        <p class="text-base sm:text-lg text-[#424242]">
+          Tražite savršeno pristajanje? Od prepravki koje vraćaju život vašoj omiljenoj odjeći, do
+          dizajna koji reflektira vaš jedinstveni stil — ovdje smo da stvorimo komade koji vas
+          predstavljaju. U našem ateljeu spajamo tradicionalne tehnike s modernim željama, kako bismo
+          svakom klijentu pružili osjećaj posebnosti i elegancije.
+        </p>
+        <a
+          href="/contact"
+          class="inline-block mt-4 rounded bg-[#D21F1B] px-6 py-3 text-white text-lg shadow-lg transition-transform duration-200 hover:scale-105"
+        >
+          Podijelite svoju ideju s nama
+        </a>
+      </div>
+  
+      <!-- Image -->
+      <div class="w-full md:w-1/2 overflow-hidden rounded-lg shadow-lg">
+        <enhanced:img
+          src="../lib/images/craft.jpg"
+          alt="krojačka radionica XXL krojačkog obrta u Puli"
+          class="w-full h-64 sm:h-80 md:h-96 object-cover transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+    </div>
 </section>
 
+<!-- Qualities Section -->
 <section use:scrollAnimation class="bg-gray-50 px-2 py-16 sm:px-4 md:px-20 lg:px-30">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-12 text-center text-2xl font-bold md:text-3xl">Detalji koji čine razliku</h2>
