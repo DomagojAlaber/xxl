@@ -25,6 +25,9 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Create FTP sync-state file
+        run: echo '{}' > build/.ftp-deploy-sync-state.json
+
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
