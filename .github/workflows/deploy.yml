@@ -34,4 +34,4 @@ jobs:
           protocol:  ftps              # explicit TLS on control channel
           port:      21                # or your FTPS port
           local-dir: ./build/            # your SvelteKit output
-
+          security: loose
