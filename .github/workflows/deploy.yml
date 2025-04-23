@@ -31,6 +31,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build
+          local-dir: build/
           remote-dir: public_html/xxl/
           git-ftp-args: --insecure
