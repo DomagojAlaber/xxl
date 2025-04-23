@@ -28,9 +28,11 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build/
-          remote-dir: public_html/xxl/
-          git-ftp-args: --insecure
+          server:    ${{ secrets.FTP_HOST }}
+          username:  ${{ secrets.FTP_USERNAME }}
+          password:  ${{ secrets.FTP_PASSWORD }}
+          protocol:  ftps              # explicit TLS on control channel
+          port:      21                # or your FTPS port
+          local-dir: ./build/            # your SvelteKit output
+          server-dir: public_html/xxl/ # where to push on the server
+
