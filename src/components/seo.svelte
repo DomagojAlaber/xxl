@@ -14,7 +14,7 @@
 	// Derive canonical URL
 	const siteOrigin = dev
 	  ? 'http://localhost:5173'
-	  : 'https://www.xxlkrojackiobrt.com';
+	  : 'https://xxlkrojackiobrt.com';
 	$: path = $page.url.pathname;
 	$: canonical = siteOrigin + path;
   
