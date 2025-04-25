@@ -4,7 +4,7 @@
 	import { dev } from '$app/environment';
   
 	// Props you can override in each page's <Seo …/>
-	export let title: string = 'XXL krojački obrt';
+	export let title: string = 'XXL krojački obrt Pula';
 	export let description: string = 'Vaš pouzdani krojački obrt u Hrvatskoj.';
 	export let image: string = `${assets}/sewing-machine.png`;
 	export let type: 'website' | 'article' = 'website';
