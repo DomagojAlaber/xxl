@@ -51,12 +51,12 @@
   
   <svelte:head>
 	<!-- Primary Meta Tags -->
-	<title>{title} | XXL krojački obrt</title>
+	<title>{title} | XXL krojački obrt Pula</title>
 	<meta name="description" content={description} />
 	<link rel="canonical" href={canonical} />
   
 	<!-- Open Graph / Facebook -->
-	<meta property="og:site_name" content="XXL krojački obrt" />
+	<meta property="og:site_name" content="XXL krojački obrt Pula" />
 	<meta property="og:type" content={type} />
 	<meta property="og:url" content={canonical} />
 	<meta property="og:title" content={title} />
