@@ -56,6 +56,8 @@
 				>
 				<h2 class="py-2 text-2xl font-bold text-gray-700 md:pt-6">Telefon</h2>
 				<div class="text-xl underline">+385 98 201 1971</div>
+				<h2 class="py-2 text-2xl font-bold text-gray-700 md:pt-6">E-mail:</h2>
+				<div class="text-xl underline">xxlkrojackiobrt@gmail.com</div>
 			</div>
 			<div class="text-center md:text-left">
 				<h2 class="py-2 text-2xl font-bold text-gray-700">Radno vrijeme</h2>
