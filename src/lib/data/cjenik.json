@@ -311,6 +311,36 @@
 	},
 	{
 		"group": "Krojačka usluga",
+		"name": "Skraćivanje košulje",
+		"price": 7.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Peglanje i skraćivanje lake zavjese 140cm",
+		"price": 8.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Peglanje i skraćivanje dekor zavjese 140cm",
+		"price": 10.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje i peglanje svečane hlajine",
+		"price": 30.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje rukava-sako/kaput",
+		"price": 30.0
+	},
+	{
+		"group": "Krojačka usluga",
+		"name": "Skraćivanje sakoa i kaputa",
+		"price": 30.0
+	},
+	{
+		"group": "Krojačka usluga",
 		"name": "Po dogovoru",
 		"price": ""
 	}
