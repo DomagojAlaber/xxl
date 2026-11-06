@@ -26,7 +26,7 @@
 
     <div class="hidden items-center space-x-4 md:flex">
       <a href="/" class="underline-animation hover:text-[#D21F1B]">Početna</a>
-      <a href="/catalog" class="underline-animation hover:text-[#D21F1B]">Cjenik</a>
+      <!-- <a href="/catalog" class="underline-animation hover:text-[#D21F1B]">Cjenik</a> -->
       <a href="/contact" class="rounded bg-[#D21F1B] px-4 py-2 text-white">Kontakt</a>
     </div>
 
@@ -62,11 +62,11 @@
         class="underline-animation block text-center text-md hover:text-[#D21F1B]"
         on:click={closeHamburger}
       >Početna</a>
-      <a
+      <!-- <a
         href="/catalog"
         class="underline-animation block text-center text-md hover:text-[#D21F1B]"
         on:click={closeHamburger}
-      >Cjenik</a>
+      >Cjenik</a> -->
       <a
         href="/contact"
         class="block text-center text-md rounded bg-[#D21F1B] px-4 py-2 text-white hover:bg-black"
